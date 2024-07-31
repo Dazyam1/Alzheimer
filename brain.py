@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import xgboost
 
 # Load the pre-trained model using pickle
 model_path = 'Alzheimerr.sav'
